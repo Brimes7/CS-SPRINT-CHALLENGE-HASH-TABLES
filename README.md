@@ -23,11 +23,21 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+    Hashing Functions allows us to be able to map out bigger numbers or in some cases strings as well; over to an integer that is then used to determine the key or index in the hash table. This should strive to be completed in the most effecient way possible.
 2. Collision resolution
+   
+   Collision Resolution is when you are trying to avoid the same value being stored in any one index. You can do this by using chaining with a LL.
 3. Performance of basic hash table operations
+    
 4. Load factor
+   
+   This simply put is the used capacity of the hash table. This generally decides when to increase the capacity. To make sure we maintain a O(1)
 5. Automatic resizing
+   
+   Generally speaking you want to do this to avoid the amount if collision that can occur to avoid decreasing the tables performance.
 6. Various use cases for hash tables
+   
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
