@@ -8,7 +8,7 @@ def has_negatives(a):
     for i in a:
         cache[i] = i
         #Checking to see if its not 0 o negaive
-        if i is not None and -i in cache:
+        if i is not 0 and -i in cache:
             print(i)
             #abs is used to return the absolute value
             #append adds the item to the list
