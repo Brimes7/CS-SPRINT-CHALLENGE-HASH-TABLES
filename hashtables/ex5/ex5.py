@@ -6,7 +6,7 @@ def finder(files, queries):
     """
     YOUR CODE HERE
     """
-    # Your code here
+    file_cache = {}
 
     return result
 
